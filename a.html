@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body >
+    <marquee><h1 style="color:cyan" heigth="200" width="300" >REGISTRATION FORM</h1></marquee>
+    <div class="outer">
+       <div class="inner">
+    <form action="submited.html"  method="GET">
+      <table>
+        <tr>
+           <td><label for="firstname" >FIRSTNAME  </label></td>
+           <td><input type="text"  id="firstname" required></td>
+        </tr>
+        <tr>
+            <td><label for="lastname" >LASTTNAME  </label></td>
+            <td><input  type="text" id="lastname" required></td>
+         </tr>
+         <tr>
+            <td><label for="phone" >PHONE NUMBER  </label></td>
+            <td><input  type="number"  id="phone" required></td>
+         </tr>
+         <tr>
+            <td><label for="email" >EMAIL  </label></td>
+            <td><input type="email" id="email" required ></td>
+         </tr>
+         <tr>
+            <td><label for="password" >PASSWORD  </label></td>
+            <td><input  type="password" id="password" required></td>
+         </tr>
+         <tr>
+            <td><label for="gender" >GENDER </label></td>
+            <td><input  type="radio"  id="male" name="gender" required>MALE</td>
+            <td><input  type="radio"  id="female" name="gender" required>FEMALE</td>
+         </tr>
+           <tr>
+            <td><label for="dob" >DATE OF BIRTH  </label></td>
+            <td><input  type="date"  id="dob" required></td>
+         </tr>
+         <tr>
+            <td><label for="file" >INSERT YOUR IMAGE </label></td>
+            <td><input  type="file"  id="file" required></td>
+         </tr>
+      </table> <br>
+      <input type="submit" value="submit">   
+    </form>
+       </div>
+    </div>
+</body>
+</html>
